@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Header and Footer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        button {
+            font-size: 12px;
+            background-color: black;
+            color: white;
+            border: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+
+
+<header>
+    <div class="header-content">
+        <div class="header-section">
+            <img src="Portfolio/image/shadrack.png" alt="Shadrack" class="circular-image">
+            <h1>FULL STACK DEVELOPER</h1>
+            <h2>Shadrack Kiplagat</h2>
+            <h4>Located in Eldoret, Kenya</h4>
+        </div>
+    </div>
+</header>
+
+
+
+<body>
+
+    <div class="main-content">
+        <div class="left-side">
+            <h1>
+                <p>NAVIGATION MENU</P>
+            </h1>
+            <div class="main-content">
+                <div class="left-side">
+                    <button onclick="window.location.href='index.html';">HOME</button>
+                    <button onclick="window.location.href='skills.html';">     SKILLS  </button>
+                    <button onclick="window.location.href='projects.html';">WORK</button>
+                    <button onclick="window.location.href='about.html';">ABOUT </button>
+                    <button onclick="window.location.href='contact.html';">ADRESS</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <h2>My Projects</h2>
+            <p>Check out some of my recent projects. One of them is finished and ready to view!</p>
+
+            <div class="projects">
+                <div class="project finished">
+                    <h3>Project 1: Web Design Portfolio</h3>
+                    <img src="Portfolio/image/engineew34erdfw4tgtr.jpg" alt="Project 1 coding pic" style="width: 100%; max-width: 600px;">
+                    <p>This is my finished web design portfolio. It showcases various design elements I created for personal projects.</p>
+                    <a href="http://127.0.0.1:5504/Portfolio/index.html" target="_blank" class="view-link">View Project</a>
+                </div>
+
+                <div class="project in-progress">
+                    <h3>Project 2: Forex Robot</h3>
+                    <img src="Image/image/robot-with-dollar-symbol.jpg" alt="Project 2 robot with dolar" style="width: 100%; max-width: 600px;">
+                    <p>This project is still in progress. I’m building a cutting-edge, fully automated forex trading robot packed with advanced features, designed to revolutionize trading strategies and deliver optimal performance with precision and speed.</p>
+                    <span class="status">In Progress</span>
+                </div>
+
+                <div class="project in-progress">
+                    <h3>Project 3: Real Estate </h3>
+                    <img src="Image/image/house.jpg" alt="beautiful house" style="width: 100%; max-width: 600px;">
+                    <p>This project is still in progress. I am building an innovative and user-friendly website that streamlines the process of discovering and renting homes within the city, making it easier than ever for people to find their perfect living
+                        space with just a few clicks.</p>
+                    <span class="status">In Progress</span>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <footer>
+        <p>WORLD TECH</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Header and Footer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        button {
+            font-size: 12px;
+            background-color: black;
+            color: white;
+            border: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+            spacing: 10px;
+        }
+        
+        button:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+
+
+<header>
+    <div class="header-content">
+        <div class="header-section">
+            <img src="Portfolio/image/shadrack.png" alt="Shadrack" class="circular-image">
+            <h1>FULL STACK DEVELOPER</h1>
+            <h2>Shadrack Kiplagat</h2>
+            <h4>Located in Eldoret, Kenya</h4>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<body>
+
+    <div class="main-content">
+        <div class="left-side">
+            <h1>
+                <p>NAVIGATION MENU</P>
+            </h1>
+            <div class="main-content">
+                <div class="left-side">
+                    <button onclick="window.location.href='index.html';">HOME</button>
+                    <button onclick="window.location.href='skills.html';">     SKILLS  </button>
+                    <button onclick="window.location.href='projects.html';">WORK</button>
+                    <button onclick="window.location.href='about.html';">ABOUT </button>
+                    <button onclick="window.location.href='contact.html';">ADRESS</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+
+
+            <h2>Contact Me</h2>
+            <p>For more information and bookings:</p>
+
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/254711805072" target="_blank" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="UCY_g60mhHVMpDvviInslFgA" target="_blank" title="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com" target="_blank" title="X (formerly Twitter)">
+                    <i class="fab fa-x"></i>
+                </a>
+            </div>
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+    <footer>
+        <p>WORLD TECH</p>
+    </footer>
+</body>
+
+</html>
